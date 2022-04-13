@@ -23,7 +23,7 @@ console.log(sumLowest(arr));
 console.log(sumLowest(arr2));
 
 
-// also i could use sort and then choose the first 2 elements but we didnt learned it yet
+// Also i could use sort and then choose the first 2 elements but we didnt learned it yet
 
 const sumMin = arr => {
     arr.sort(function(a, b){return a - b});
