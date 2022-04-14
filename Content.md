@@ -2,27 +2,27 @@
 
 ### Basic
 
-[Yes or No](ex.1.1.js)
+[Yes or No](Ex.1.1.js)
 
 ### Simple Math
 
-[Sum of lowest numbers](ex.2.1.js),
-[One and Zero - Binary](ex.2.2.js),
-[Find the Next Perfect Square](ex.2.3.js),
-[Unique](ex.2.4.js),
-[Summation](ex.2.5.js),
-[Years and Centuries](ex.2.6.js),
-[Basic Math](ex.2.7.js)
+[Sum of lowest numbers](Ex.2.1.js),
+[One and Zero - Binary](Ex.2.2.js),
+[Find the Next Perfect Square](Ex.2.3.js),
+[Unique](Ex.2.4.js),
+[Summation](Ex.2.5.js),
+[Years and Centuries](Ex.2.6.js),
+[Basic Math](Ex.2.7.js)
 
 ### Math In Story
 
-[ Growth Of population ](ex.3.1.js),
-[People on the Bus](ex.3.2.js)
+[ Growth Of population ](Ex.3.1.js),
+[People on the Bus](Ex.3.2.js)
 
 ### Advanced Math
 
-[Fibonacci](ex.4.1.js),
-[Tribonacci](ex.4.2.js)
+[Fibonacci](Ex.4.1.js),
+[Tribonacci](Ex.4.2.js)
 
 ### Basic Iteration Logic
 

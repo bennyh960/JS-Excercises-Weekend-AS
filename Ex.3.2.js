@@ -20,7 +20,6 @@ const peopleInBus = (arr) => {
     // !Error validation
     // prettier-ignore
     if (arr[0][1] !== 0 || people < 0 || arr[i][1] > people + arr[i][0] || arr[arr.length - 1][0] !== 0) {
-        // console.log(i);
               return "Error";
           }
     people += arr[i][0] - arr[i][1];
