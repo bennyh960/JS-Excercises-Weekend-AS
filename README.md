@@ -18,3 +18,25 @@
 
 [ Growth Of population ](ex.3.1.js),
 [People on the Bus](ex.3.2.js)
+
+### Advanced Math
+
+[Fibonacci](ex.4.1.js),
+[Tribonacci](ex.4.2.js)
+
+### Basic Iteration Logic
+
+[trimming string](Ex.5.1.js),
+[String Repeat ](Ex.5.2.js),
+[To Camel Case ](Ex.5.3.js),
+[To Weird Case](Ex.5.4.js),
+[Abbreviate two words](Ex.5.5.js),
+[Mask](Ex.5.6.js),
+[shortest words ](Ex.5.6.js)
+
+### Advanced Iteration Logic
+
+[Mumbling](Ex.6.1.js),
+[Counting Duplicates](Ex.6.2.js),
+[organize strings](Ex.6.3.js)
+[isogram](Ex.6.4.js)
