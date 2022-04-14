@@ -5,7 +5,6 @@ def isPrime(n):
     return 1
     
 def zarmenDeg(prime_func , n):  
-
     if prime_func(n) == -1:
         return -1
 
@@ -13,7 +12,6 @@ def zarmenDeg(prime_func , n):
     zarmen = (2 * n) + 1
 
     while(prime_func(zarmen) == 1):
-
         zarmen = (zarmen * 2 ) + 1
         typ += 1
     
