@@ -32,7 +32,7 @@
 [To Weird Case](Ex.5.4.js),
 [Abbreviate two words](Ex.5.5.js),
 [Mask](Ex.5.6.js),
-[shortest words ](Ex.5.6.js)
+[shortest words ](Ex.5.7.js)
 
 ### Advanced Iteration Logic
 
