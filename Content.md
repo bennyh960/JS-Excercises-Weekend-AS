@@ -40,3 +40,10 @@
 [Counting Duplicates](Ex.6.2.js),
 [organize strings](Ex.6.3.js)
 [isogram](Ex.6.4.js)
+
+### Implement Functionality (filter ,forEach , map)
+
+[HackerRank Challenge](Ex.7.1.js)
+[Find the Perimeter of a Rectangle](Ex.7.2.js)
+[Interview Questions , objects, arrays, numbers](Ex.7.3.js)
+[Linear search](Ex.7.4.js)
