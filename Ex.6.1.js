@@ -9,21 +9,40 @@
 // accum("cwAt") -> "C-Ww-Aaa-Tttt"
 // The parameter of accum is a string which includes only letters from a..z and A..Z.
 
-const accum = (word) => {
+const acummulate = (word) => {
   const arr = word.split("");
   let newWord = "";
 
   for (let i = 0; i < arr.length; i++) {
     for (let j = 0; j <= i; j++) {
-      j === 0
-        ? (newWord += arr[i].toUpperCase())
-        : (newWord += arr[i].toLowerCase());
+      // prettier-ignore
+      j === 0 ? (newWord += arr[i].toUpperCase()) : (newWord += arr[i].toLowerCase());
     }
     i < arr.length - 1 ? (newWord += "-") : (newWord += "");
   }
   return newWord;
 };
 
-console.log(accum("abcd"));
-console.log(accum("RqaEzty"));
-console.log(accum("cwat"));
+console.log(acummulate("abcd"));
+console.log(acummulate("RqaEzty"));
+console.log(acummulate("cwat"));
+
+console.log("======================================================");
+// Liran methode
+const acummulate2 = (word) => {
+  const arr = word.split("");
+  let newWord = "";
+
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = 0; j <= i; j++) {
+      // prettier-ignore
+      j === 0 ? (newWord += arr[i].toUpperCase()) : (newWord += arr[i].toLowerCase());
+    }
+    i < arr.length - 1 ? (newWord += "-") : (newWord += "");
+  }
+  return newWord;
+};
+
+console.log(acummulate2("abcd"));
+console.log(acummulate2("RqaEzty"));
+console.log(acummulate2("cwat"));

@@ -7,13 +7,18 @@
 // isIsogram("moOse") == false // -- ignore letter case
 
 const isIsogram = (str) => {
+  if (str.length > 26) return "ERROR";
+
   let test = "";
-  for (let w of str.toLowerCase()) {
+  let strLower = str.toLowerCase();
+  for (let w of strLower) {
     if (test.includes(w)) return false;
     test += w;
   }
   return true;
 };
+
+//TODO : check hashmap
 
 function test(expected, actual) {
   console.log("Expected: " + expected + "\tActual : " + actual);
