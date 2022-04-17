@@ -6,21 +6,20 @@
 // isIsogram("aba") == false
 // isIsogram("moOse") == false // -- ignore letter case
 
-const isIsogram = str => {
-    let test = '';
-    for(let w of str.toLowerCase()){
-        if(test.includes(w))
-            return false;
-        test += w;
-    }
-    return true;
-}
+const isIsogram = (str) => {
+  let test = "";
+  for (let w of str.toLowerCase()) {
+    if (test.includes(w)) return false;
+    test += w;
+  }
+  return true;
+};
 
 function test(expected, actual) {
-    console.log("Expected: " + expected + "\tActual : " + actual);
-  }
+  console.log("Expected: " + expected + "\tActual : " + actual);
+}
 
-test(true,isIsogram('abcd'));
-test(true,isIsogram('ambidextrously'));
-test(false,isIsogram('abcA'));
-test(false,isIsogram('CScA'));
+test(true, isIsogram("abcd"));
+test(true, isIsogram("ambidextrously"));
+test(false, isIsogram("abcA"));
+test(false, isIsogram("CScA"));

@@ -8,7 +8,7 @@
 // create random big array:
 const arr = [];
 let num;
-while (arr.length < 10000) {
+while (arr.length < 100000) {
   num = Math.round(100 * Math.random());
   arr.push(num);
 }

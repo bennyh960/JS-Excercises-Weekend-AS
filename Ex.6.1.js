@@ -9,18 +9,20 @@
 // accum("cwAt") -> "C-Ww-Aaa-Tttt"
 // The parameter of accum is a string which includes only letters from a..z and A..Z.
 
-const accum = word => {
-    const arr = word.split("");
-    let newWord = '';
+const accum = (word) => {
+  const arr = word.split("");
+  let newWord = "";
 
-    for(let i = 0 ; i < arr.length ; i++){
-        for(let j = 0 ; j <= i ; j++){   
-            j === 0 ? newWord += arr[i].toUpperCase() : newWord += arr[i].toLowerCase(); 
-        }
-        i < arr.length - 1 ? newWord += '-' : newWord += ''; 
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = 0; j <= i; j++) {
+      j === 0
+        ? (newWord += arr[i].toUpperCase())
+        : (newWord += arr[i].toLowerCase());
     }
-    return newWord;
-}
+    i < arr.length - 1 ? (newWord += "-") : (newWord += "");
+  }
+  return newWord;
+};
 
 console.log(accum("abcd"));
 console.log(accum("RqaEzty"));

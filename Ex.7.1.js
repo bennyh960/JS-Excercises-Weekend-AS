@@ -21,3 +21,6 @@ const filter = (arr, callback) => {
 const grater = (num) => (num > 3 ? true : false);
 
 console.log(filter([1, 2, 3, 4, 5, 6, 7], grater));
+
+array.forEach((element) => {});
+// ========================= for each ================================
